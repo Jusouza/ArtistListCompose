@@ -122,10 +122,7 @@ fun ArtistCard(
         }
         Spacer(modifier = Modifier.size(8.dp))
         Card(
-            modifier = Modifier
-                .padding(
-                    8.dp
-                ),
+            modifier = Modifier.padding(8.dp),
             elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
         ) {
             Image(
